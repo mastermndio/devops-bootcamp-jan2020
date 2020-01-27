@@ -25,7 +25,7 @@ addUser ()
   echo "PASSWORD: $PASSWORD" >> credentials.txt
 
   #Send email with user credentials to new user and remove credentials.txt file for security reasons
-  mail -A credentials.txt -s "Here are your login credentials" "$USERNAME@mastermnd.io" < /dev/null && \
+  mail -A credentials.txt -s "Here are your login credentials" "$USERNAME@exampledomain.com" < /dev/null && \
     echo "Mail has been successfully sent" && \
     echo "Deleting credentials file" && \
     rm -rf credentials.txt
