@@ -1,0 +1,5 @@
+Do your best to extend our script to add the following functionality
+
+1. Allow user to pass in a list of usernames from a seperate text file. The script should read the list of names and perform the action that is specified(add or delete) on each name in the list.
+
+2. Currently our script does not exit with proper exit codes on failures. Try to extend the script to exit with proper exit codes when failures happen
