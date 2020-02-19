@@ -1,0 +1,25 @@
+1. Next week, we have 3 devs onboarding. First we need to automate development servers for them. 
+
+2. We dont want to pay for any unescecessary infrastructure.
+
+3. Use a single load balance to access each developer environment using their names as the subdomains
+
+LoadBalancer
+- Application Server 1
+  - App 1
+  - App 2
+- Application Server 2
+  - App1
+  - App 2
+- Application Server 3
+  - App 1
+  - App 2
+
+
+
+
+
+
+
+
+
